@@ -2,8 +2,8 @@
   , fetchurl, runtimeShell }:
 
 let
-  name = "p3x-onenote";
   version = "2020.10.111";
+  name = "p3x-onenote-${version}";
 
   plat = {
     aarch64-linux = "-arm64";
